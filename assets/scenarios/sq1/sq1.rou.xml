@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Placeholder route file for SQ1.
+
+Replace this with real OD flows consistent with your corridor boundaries (A/B/C/D flows).
+You can generate these with SUMO tools or your own pipeline.
+
+This file is intentionally minimal and will NOT run without valid edges present in the net.
+-->
+<routes>
+  <!-- Example: define a vehicle type -->
+  <vType id="car" accel="1.2" decel="2.5" length="4.0" maxSpeed="13.33" />
+
+  <!-- Example placeholder flow (replace 'edge_from'/'edge_to') -->
+  <!--
+  <flow id="flow0" type="car" begin="0" end="3600" vehsPerHour="360"
+        from="edge_from" to="edge_to" departSpeed="max" />
+  -->
+</routes>
