@@ -1,0 +1,10 @@
+services:
+  gamarl:
+    build: ..
+    volumes:
+      - ../:/app
+      - ../runs:/app/runs
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app/src
+    command: ["bash", "scripts/train.sh", "configs/env_synthetic.yaml"]
