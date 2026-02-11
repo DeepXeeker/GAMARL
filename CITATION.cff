@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+type: software
+title: "GAMARL: Gated-Attention Graph MARL for Corridor Traffic Signal Control"
+authors:
+  - family-names: Mukhtar
+    given-names: Hamza
+email: hamza.hm.mukhtar@gmail.com
+repository-code: "https://example.com/gamarl"  # replace with your repo URL
+license: MIT
+keywords:
+  - multi-agent reinforcement learning
+  - traffic signal control
+  - graph neural networks
+  - SUMO
+  - TraCI
+preferred-citation:
+  type: article
+  title: "Selective Inter-Intersection Communication for Partially Observable Corridor Traffic Control via Gated-Attention Graph MARL"
+  authors:
+    - family-names: Mukhtar
+      given-names: Hamza
+  year: 2026
+  notes: "Please update with venue/DOI if available."

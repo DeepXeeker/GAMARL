@@ -1,0 +1,4 @@
+# If you have CUDA, install a CUDA-enabled PyTorch build from the official instructions:
+# https://pytorch.org/get-started/locally/
+# Then install the rest:
+-r requirements.txt
