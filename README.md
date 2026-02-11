@@ -27,11 +27,9 @@ bash scripts/eval.sh configs/env_synthetic.yaml
 
 To run SUMO scenarios you need:
 1) SUMO installed and `SUMO_HOME` set, or `sumo` available on PATH.
-2) Provide network + route assets under:
 - `assets/sumo_networks/`
 - `assets/scenarios/`
 
-Example:
 ```bash
 export SUMO_HOME=/path/to/sumo
 bash scripts/train.sh configs/env_sq1.yaml
