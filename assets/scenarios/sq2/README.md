@@ -1,7 +1,7 @@
 # SQ2 SUMO scenario (placeholder)
 
 
-## What you must add (not included)
+## What you must add
 - `assets/sumo_networks/sq2/sq2.net.xml` : the SUMO network for SQ2 (user-provided).
 - Replace `sq2.rou.xml` with actual OD demand streams (A/B/C/D) matching your paper setup.
 
