@@ -48,12 +48,6 @@ bash scripts/train.sh configs/env_sq1.yaml
 
 ---
 
-## Citation
-
-See `CITATION.cff`.
-
----
-
 ## License
 
 MIT (see `LICENSE`).
