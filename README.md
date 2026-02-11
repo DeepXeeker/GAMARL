@@ -1,6 +1,4 @@
-# GAMARL — Gated-Attention Graph MARL for Corridor Traffic Signal Control
-
-This repository is a faithful, **engineering-oriented reference implementation** of the paper:
+# GAMARL - Gated-Attention Graph MARL for Corridor Traffic Signal Control
 
 **Selective Inter-Intersection Communication for Partially Observable Corridor Traffic Control via Gated-Attention Graph MARL**  
 Hamza Mukhtar
@@ -11,8 +9,6 @@ It implements:
 - Corridor-level **degree-normalized masked graph fusion** (Eqs. 10–12) feeding a **value-based Q-network** (Eq. 13), trained with replay + target network (Eq. 14).
 - A **progression-oriented reward** that penalizes downstream waiting after corridor entry (Eqs. 4–5).
 - Curriculum growth for scalability (start with M0=2 and add one intersection every 50 episodes).
-
-> Note: Real-world SUMO assets for SQ1–SQ3 are intentionally **not committed**. See `assets/` and `scripts/download_sumo_assets.sh`.
 
 ---
 
@@ -25,11 +21,9 @@ bash scripts/train.sh configs/env_synthetic.yaml
 bash scripts/eval.sh configs/env_synthetic.yaml
 ```
 
-The synthetic environment is designed to exercise the full pipeline without SUMO.
-
 ---
 
-## SUMO Setup (Optional)
+## SUMO Setup
 
 To run SUMO scenarios you need:
 1) SUMO installed and `SUMO_HOME` set, or `sumo` available on PATH.
