@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Placeholder SUMO configuration for SQ3.
+You must provide:
+  - a network file (*.net.xml) under assets/sumo_networks/sq3/
+  - a routes file (*.rou.xml) under assets/scenarios/sq3/
+Then update the paths below accordingly.
+-->
+<configuration>
+  <input>
+    <net-file value="../sumo_networks/sq3/sq3.net.xml"/>
+    <route-files value="sq3.rou.xml"/>
+  </input>
+
+  <time>
+    <begin value="0"/>
+    <end value="10800"/> <!-- 3h cap as in paper evaluation -->
+    <step-length value="1"/>
+  </time>
+
+  <report>
+    <verbose value="false"/>
+    <no-step-log value="true"/>
+  </report>
+</configuration>
