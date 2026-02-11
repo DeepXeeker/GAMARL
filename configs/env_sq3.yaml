@@ -1,0 +1,12 @@
+defaults:
+  - default
+  - _self_
+
+env:
+  name: "sumo"
+  scenario: "sq3"
+  sumo_binary: "sumo"
+  sumo_config: "assets/scenarios/SQ3/sq3.sumocfg"
+  network_file: "assets/sumo_networks/SQ3/net.net.xml"
+  route_file: "assets/scenarios/SQ3/routes.rou.xml"
+  episode_horizon: 10800

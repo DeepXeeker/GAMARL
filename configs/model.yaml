@@ -1,0 +1,19 @@
+# Model hyperparameters
+df: 11          # node-feature dimension (paper)
+d_model: 128
+n_heads: 4
+n_transformer_layers: 2
+history_len: 8
+
+# Communication
+gate_hidden: 128
+attn_hidden: 128
+gumbel_tau: 1.0
+hard_gates: true
+
+# GCN fusion
+gcn_hidden: 128
+gcn_activation: "relu"
+
+# Q head
+q_hidden: 256

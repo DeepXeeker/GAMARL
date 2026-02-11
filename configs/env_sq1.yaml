@@ -1,0 +1,12 @@
+defaults:
+  - default
+  - _self_
+
+env:
+  name: "sumo"
+  scenario: "sq1"
+  sumo_binary: "sumo"
+  sumo_config: "assets/scenarios/SQ1/sq1.sumocfg"
+  network_file: "assets/sumo_networks/SQ1/net.net.xml"
+  route_file: "assets/scenarios/SQ1/routes.rou.xml"
+  episode_horizon: 10800  # up to 3h in evaluation; training may use shorter

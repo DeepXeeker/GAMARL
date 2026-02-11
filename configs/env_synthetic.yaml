@@ -1,0 +1,9 @@
+defaults:
+  - default
+  - _self_
+
+env:
+  name: "synthetic"
+  adjacency: "grid"
+  n_intersections: 25
+  episode_horizon: 1020
