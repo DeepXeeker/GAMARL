@@ -2,8 +2,7 @@
 <!--
 Placeholder route file for SQ2.
 
-Replace this with real OD flows consistent with your corridor boundaries (A/B/C/D flows).
-You can generate these with SUMO tools or your own pipeline.
+
 
 This file is intentionally minimal and will NOT run without valid edges present in the net.
 -->
