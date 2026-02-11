@@ -1,6 +1,5 @@
 # SQ1 SUMO scenario (placeholder)
 
-This folder provides *template* SUMO configuration files for **SQ1**.
 
 ## What you must add (not included)
 - `assets/sumo_networks/sq1/sq1.net.xml` : the SUMO network for SQ1 (user-provided).
@@ -12,5 +11,4 @@ The wrapper `src/gamarl/envs/sumo_env.py` expects a `.sumocfg` path from config:
 
 Then it will start SUMO (via TraCI) and build observations `y=(F,A,m)`.
 
-## Notes
-These templates intentionally do not include proprietary networks or datasets.
+#
