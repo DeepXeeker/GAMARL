@@ -1,7 +1,6 @@
 # GAMARL - Gated-Attention Graph MARL for Corridor Traffic Signal Control
 
 **Selective Inter-Intersection Communication for Partially Observable Corridor Traffic Control via Gated-Attention Graph MARL**  
-Hamza Mukhtar
 
 It implements:
 - **Two-level Traffic Intersection Network (TIN)** with a local **Distributed Interaction Graph (DIG)** and a corridor-level **Central Cooperation Graph (CCG)**.
